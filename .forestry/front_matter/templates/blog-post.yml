@@ -16,3 +16,5 @@ fields:
     schema:
       format: markdown
   label: Testo
+pages:
+- content/blog/test blog.md
