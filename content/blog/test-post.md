@@ -5,6 +5,6 @@ description = "Descrizione"
 image = "/uploads/logo-full.png"
 tags = ["test"]
 title = "Test Post"
-type = "asd"
+type = "featured"
 
 +++
