@@ -8,3 +8,4 @@ title = "Test Post"
 type = "featured"
 
 +++
+test post
