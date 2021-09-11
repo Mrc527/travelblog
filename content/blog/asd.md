@@ -5,11 +5,11 @@ description: This is meta description
 type: featured
 image: images/featured-post/post-2.jpg
 categories:
-- Philosophy
-  tags:
-- Philosophy
-- Photos
-  draft: true
+  - Philosophy
+tags:
+  - Philosophy
+  - Photos 
+draft: false
 
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
