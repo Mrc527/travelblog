@@ -1,9 +1,14 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: ''
+admin_path: "/admin"
 webhook_url: 
 sections:
+- type: directory
+  path: ''
+  label: Settings
+  create: documents
+  match: "*.toml"
 - type: directory
   path: content/blog
   label: Blog
