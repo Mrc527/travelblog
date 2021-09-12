@@ -521,7 +521,12 @@ textarea.form-control {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
-
+.card-img {
+  max-height: 490px;
+}
+.card-img-overlay {
+  max-height: 490px;
+}
 .card-img-overlay::before {
   position: absolute;
   content: "";
@@ -861,4 +866,9 @@ blockquote {
   height: 200px;
   width: 200px;
   object-fit: cover;
+}
+
+.logo {
+  max-width: 500px;
+  max-height: 70px;
 }

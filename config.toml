@@ -4,7 +4,7 @@ languageCode = "en-us"
 paginate = 6
 summaryLength = "10"
 theme = "parsa-hugo"
-title = "Parsa Hugo | Personal Blog Template"
+title = "I viaggi di Alice"
 [[menu.main]]
 hasChildren = true
 name = "Homepage"
@@ -34,7 +34,7 @@ author = "Alice G"
 author_image = "images/banner-img.png"
 bio = "I’m a Freelance Interactive Art Director based in Italy. Focusing across branding and identity, digital and print."
 contact_form_action = "#"
-copyright = "Copyright &copy; 2021"
+copyright = "Copyright &copy; 2021 Alice G"
 description = "This is meta description"
 email = "exmaple@ymail.com"
 home = "Home"
@@ -48,7 +48,7 @@ enable = true
 expire_days = 2
 [params.instafeed]
 access_token = "IGQVJYeUk4YWNIY1h4OWZANeS1wRHZARdjJ5QmdueXN2RFR6NF9iYUtfcGp1NmpxZA3RTbnU1MXpDNVBHTzZAMOFlxcGlkVHBKdjhqSnUybERhNWdQSE5hVmtXT013MEhOQVJJRGJBRURn"
-enable = true
+enable = false
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
