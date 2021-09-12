@@ -3,7 +3,7 @@ title: Sicilia
 date: 2019-05-14T14:46:10.000+06:00
 description: This is meta description
 type: featured
-image: "/uploads/c7c02198-05e8-443e-9d6f-d16d647db6bf.jpeg"
+image: "/uploads/16f75d69-3d4e-44cf-b64d-91286b53463f.jpeg"
 categories:
 - Travel
 - Italy
