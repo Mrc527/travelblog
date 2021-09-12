@@ -3,7 +3,7 @@ title: France
 date: 2019-05-14T14:46:10.000+06:00
 description: This is meta description
 type: featured
-image: "/uploads/12e3e059-3575-4f06-b795-08e2072772ae.jpeg"
+image: "/uploads/4633d506-ef04-4dc7-a4b8-bcbc64558215.jpeg"
 categories:
 - Travel
 - Europe
