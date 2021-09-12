@@ -3,7 +3,7 @@ title: Spain
 date: 2019-05-14T14:46:10.000+06:00
 description: This is meta description
 type: featured
-image: images/featured-post/post-2.jpg
+image: "/uploads/7f0cd0f9-48e7-4c61-ae1a-ff90b5bf7562.jpeg"
 categories:
 - Travel
 - Europe
