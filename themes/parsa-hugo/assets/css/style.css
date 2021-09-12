@@ -872,3 +872,12 @@ blockquote {
   max-width: 500px;
   max-height: 70px;
 }
+.menu {
+}
+@media (max-width: 767px) {
+  .menu {
+    position: absolute;
+    right: 0;
+    top: 5px;
+  }
+}
