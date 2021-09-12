@@ -3,7 +3,7 @@ title: Costiera
 date: 2019-05-14T14:46:10.000+06:00
 description: This is meta description
 type: featured
-image: "/uploads/82f6836f-a502-4152-868f-ca93c59ed4bd.jpeg"
+image: "/uploads/c7c02198-05e8-443e-9d6f-d16d647db6bf.jpeg"
 categories:
 - Travel
 - Italy
