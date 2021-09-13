@@ -2,26 +2,33 @@
 categories = ["Island", "Europe", "Travel"]
 date = 2021-09-11T00:00:00Z
 description = "Welcome to Azores"
+geoDescription = "Ponta Delgada"
 image = "/uploads/ecfca582-bb17-486b-b6c9-462d330d85e2.jpeg"
+latitude = "37.74065"
+longitude = "-25.66058"
+summary = "ciao!"
 tags = ["Sun", "Ocean"]
 title = "Azores"
 type = "featured"
-latitude = "37.74065"
-longitude = "-25.66058"
-geoDescription = "ciao!"
-summary = "ciao!"
-[[top]]
-name = "asd"
-description = "faceva venire i brividi"
-[[top]]
-name = "lol"
-description = "bellissimo!"
 [[flop]]
-name = "qwe"
+description = "lol"
+name = "Boh"
+[[flop]]
 description = "faceva schifo"
+name = "qwe"
 [[flop]]
-name = "rtz"
 description = "bruttissimo!"
+name = "rtz"
+[[top]]
+description = "Che figata le onde!"
+name = "Le onde!"
+[[top]]
+description = "Ebbene si, il cibo adoriamo è molto buono."
+name = "Il Cibo"
+[[top]]
+description = "facevano venire i brividi"
+name = "I tramonti"
+
 +++
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
