@@ -29,9 +29,15 @@
         <article class="content">
           <img src="{{.Params.Image | absURL }}" alt="post-thumb" class="img-fluid rounded float-left mr-5 mb-4 blog-post-image">
           {{.Content}}
-          <div class="map">
-            {{ partial "map-container.html" . }}
-          </div>
+          <div id="mapid" style="height: 280px"></div>
+          <script>
+            var mymap = L.map('mapid').setView([{{ .Params.latitude }}, {{ .Params.longitude }}], 13)
+            L.marker([{{ .Params.latitude }}, {{ .Params.longitude }}]).addTo(mymap);
+            // add the OpenStreetMap tiles
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                    { subdomains: ['a', 'b', 'c'] })
+                    .addTo(mymap)
+          </script>
         </article>
       </div>
       {{partial "sidebar.html" . }}

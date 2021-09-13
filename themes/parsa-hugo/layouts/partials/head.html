@@ -12,7 +12,8 @@
   {{ range site.Params.plugins.css }}
   <link rel="stylesheet" href="{{ .link | absURL }} ">
   {{ end }}
-
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
   {{ "<!-- Main Stylesheet -->" | safeHTML }}
   {{ $styles := resources.Get "css/style.css" | minify }}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
@@ -20,7 +21,7 @@
   {{ "<!--Favicon-->" | safeHTML }}
   <link rel="shortcut icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
   <link rel="icon" href="{{ `images/favicon.png` | absURL }} " type="image/x-icon">
-  
+
   {{ with .Params.image }}
   <meta property="og:image" content="{{ . | absURL }}" />
   {{ end }}
