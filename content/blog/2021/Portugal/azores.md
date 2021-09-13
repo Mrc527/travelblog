@@ -8,8 +8,20 @@ title = "Azores"
 type = "featured"
 latitude = "37.74065"
 longitude = "-25.66058"
+geoDescription = "ciao!"
+[[top]]
+name = "asd"
+description = "faceva venire i brividi"
+[[top]]
+name = "lol"
+description = "bellissimo!"
+[[flop]]
+name = "qwe"
+description = "faceva schifo"
+[[flop]]
+name = "rtz"
+description = "bruttissimo!"
 +++
-<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-25.669587850570682%2C37.73712313063583%2C-25.6515634059906%2C37.74417354301664&amp;layer=mapnik&amp;marker=37.740648420766355%2C-25.66057562828064" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=37.74065&amp;mlon=-25.66058#map=17/37.74065/-25.66058">View Larger Map</a></small>
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
 ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
@@ -38,7 +50,7 @@ labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitatio
 aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
 
 
-![](../images/post-img.jpg)
+![](/images/post-img.jpg)
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
