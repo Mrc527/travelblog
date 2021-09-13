@@ -28,18 +28,36 @@
         </ul>
         <article class="content">
           <img src="{{.Params.Image | absURL }}" alt="post-thumb" class="img-fluid rounded float-left mr-5 mb-4 blog-post-image">
-          {{.Content}}
+          <div class="article-sidebar">
+            {{ with .Params.summary }}
+            <div class="post-summary bg-secondary">
+              <h5>In breve</h5>
+              {{ . }}
+            </div>
+            {{ end }}
+            <div class="topflop bg-secondary">
+              <h5>TOP 👍</h5>
+              <ul>
+              {{ range .Params.top }}
+              <li>
+                <h6>{{ .name }}</h6>
+                {{ .description }}
+              </li>
+              {{ end }}
+              </ul>
+              <h5>FLOP 👎</h5>
+              <ul>
+                {{ range .Params.flop }}
+                <li>
+                  <h6>{{ .name }}</h6>
+                  {{ .description }}
+                </li>
+                {{ end }}
+              </ul>
+            </div>
+          </div>
           <div>
-            <div>TOP:</div>
-            {{ range .Params.top }}
-            {{ .name }}<br/>
-            {{ .description }}<br/><br/><br/>
-            {{ end }}
-            <div>FLOP:</div>
-            {{ range .Params.flop }}
-            {{ .name }}<br/>
-            {{ .description }}<br/><br/><br/>
-            {{ end }}
+            {{.Content }}
           </div>
           <div id="mapid" style="height: 280px"></div>
           <script>

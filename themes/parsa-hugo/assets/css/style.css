@@ -893,3 +893,23 @@ blockquote {
   .entry {
   }
 }
+
+.article-sidebar{
+  display: block;
+  float: right;
+}
+.post-summary{
+  border-radius: 5px;
+}
+.post-summary h5{
+  text-align: center;
+}
+.topflop{
+  border-radius: 5px;
+}
+.topflop h5{
+  text-align: center;
+}
+.topflop ul {
+  list-style-type: decimal;
+}

@@ -9,6 +9,7 @@ type = "featured"
 latitude = "37.74065"
 longitude = "-25.66058"
 geoDescription = "ciao!"
+summary = "ciao!"
 [[top]]
 name = "asd"
 description = "faceva venire i brividi"
