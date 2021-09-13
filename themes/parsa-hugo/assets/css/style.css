@@ -275,13 +275,13 @@ a.text-dark:hover {
 }
 
 .section {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .section-sm {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .section-title {
@@ -715,6 +715,10 @@ textarea.form-control {
 
 .article-full-width .post-image img {
   height: 400px;
+  width: auto;
+}
+.blog-post-image {
+  height: 200px !important;
   width: auto;
 }
 
